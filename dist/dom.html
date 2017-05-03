@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>test-performance</title>
+<link href="dom.css" rel="stylesheet"></head>
+<body>
+<div id="root">
+    <div>
+        <div class="control">
+            <label>repeat:</label>
+            <input class="input" type="text" value="1" id="repeat"/>
+            <a class="button" id="refresh">refresh</a>
+            <a class="button" id="append">append</a>
+        </div>
+        <div class="control">
+            time: <span id="time"></span>
+        </div>
+        <ul id="content"></ul>
+    </div>
+</div>
+<script type="text/javascript" src="common.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="dom.js"></script></body>
+</html>
