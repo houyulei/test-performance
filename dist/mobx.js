@@ -18896,7 +18896,6 @@ webpackJsonp([1],[
 	        value: function render() {
 	            var _this4 = this;
 
-	            console.log('render items');
 	            var content = [];
 	            store.items.forEach(function (item, index) {
 	                for (var i = 0; i < _this4.state.repeat; i++) {
@@ -18949,8 +18948,6 @@ webpackJsonp([1],[
 	var Item = (0, _mobxReact.observer)(function (_ref) {
 	    var index = _ref.index,
 	        item = _ref.item;
-
-	    console.log('render item');
 
 	    return _react2.default.createElement(
 	        'li',

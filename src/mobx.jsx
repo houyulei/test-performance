@@ -90,7 +90,6 @@ export default class Example extends React.Component {
     }
 
     render() {
-        console.log('render items')
         const content = [];
         store.items.forEach((item, index) => {
                 for (let i = 0; i < this.state.repeat; i++) {
@@ -117,8 +116,6 @@ export default class Example extends React.Component {
 }
 
 const Item = observer(function ({index, item}) {
-    console.log('render item')
-
     return (
         <li className="list-view-item">{`${index}. ${item.value}`}
         </li>
